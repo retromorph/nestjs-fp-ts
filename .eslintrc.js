@@ -16,6 +16,8 @@ module.exports = {
   },
   ignorePatterns: [".eslintrc.js"],
   rules: {
+    "@typescript-eslint/no-non-null-assertion": "off",
+
     // important language properties
     "@typescript-eslint/consistent-type-assertions": ["error", {
       assertionStyle: "as",

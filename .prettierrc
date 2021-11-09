@@ -3,7 +3,7 @@
   "tabWidth": 2,
   "trailingComma": "all",
   "singleQuote": false,
-  "jsxBracketSameLine": true,
+  "bracketSameLine": true,
   "semi": true,
   "importOrder": [
     "^@nestjs/(.*)$",

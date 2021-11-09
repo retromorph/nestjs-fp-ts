@@ -1,4 +1,5 @@
-import {DynamicModule, Module} from "@nestjs/common";
+import { DynamicModule, Module } from "@nestjs/common";
+
 // import {APP_INTERCEPTOR} from "@nestjs/core";
 
 @Module({})
@@ -11,7 +12,7 @@ export class NestjsFpTsModule {
         //   provide: APP_INTERCEPTOR,
         //   useClass: ,
         // },
-      ]
+      ],
     };
   }
 }

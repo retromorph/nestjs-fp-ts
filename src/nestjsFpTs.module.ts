@@ -1,6 +1,7 @@
 import { DynamicModule, Module } from "@nestjs/common";
 
-// import {APP_INTERCEPTOR} from "@nestjs/core";
+import { APP_INTERCEPTOR } from "@nestjs/core";
+import { EitherInterceptor } from "./either/Either.interceptor";
 
 @Module({})
 export class NestjsFpTsModule {
@@ -8,10 +9,10 @@ export class NestjsFpTsModule {
     return {
       module: NestjsFpTsModule,
       providers: [
-        // {
-        //   provide: APP_INTERCEPTOR,
-        //   useClass: ,
-        // },
+        {
+          provide: APP_INTERCEPTOR,
+          useClass: EitherInterceptor,
+        },
       ],
     };
   }

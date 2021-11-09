@@ -1,9 +1,9 @@
 {
   "name": "nestjs-fp-ts",
-  "version": "0.0.3-alpha",
+  "version": "0.0.4-alpha",
   "description": "",
   "author": "Nikita Musalov",
-  "license": "MIT License",
+  "license": "Apache License 2.0",
   "scripts": {
     "prepare": "husky install",
     "clean": "rimraf dist",

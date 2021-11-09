@@ -3,7 +3,7 @@
   "version": "0.0.5-alpha",
   "description": "",
   "author": "Nikita Musalov",
-  "license": "Apache License 2.0",
+  "license": "Apache-2.0",
   "scripts": {
     "prepare": "husky install",
     "clean": "rimraf dist",

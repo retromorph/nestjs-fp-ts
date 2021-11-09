@@ -5,8 +5,10 @@ import {
   Injectable,
   NestInterceptor,
   ExecutionContext,
-  CallHandler,
+  CallHandler, HttpException,
 } from "@nestjs/common";
+
+export type HttpExceptionEither<T> = E.Either<HttpException, T>
 
 @Injectable()
 export class EitherInterceptor implements NestInterceptor {

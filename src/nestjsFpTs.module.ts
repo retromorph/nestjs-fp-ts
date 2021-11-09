@@ -1,6 +1,6 @@
 import { DynamicModule, Module } from "@nestjs/common";
-
 import { APP_INTERCEPTOR } from "@nestjs/core";
+
 import { EitherInterceptor } from "./either/Either.interceptor";
 
 @Module({})
